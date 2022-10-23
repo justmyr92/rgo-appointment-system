@@ -1,0 +1,91 @@
+* {
+    user-select: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.btn {
+    font-family: "Poppins Regular";
+}
+
+@font-face {
+    font-family: "Poppins Regular";
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Poppins Medium";
+    src: url('../fonts/Poppins-Medium.ttf');
+}
+
+.navbar-brand {
+    font-family: "Poppins Medium" !important;
+}
+
+.nav-link {
+    font-family: "Poppins Regular" !important;
+}
+
+section.home-section {
+    height: 100vh;
+    background-image: url('../image/bsu.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .bg-opacity {
+        background-color: rgba(0, 0, 0, 0.85);
+        height: 100%;
+        .bsu-flag {
+            height: 100vh;
+            background-image: url('../image/bsu-flag.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        h4,
+        h5 {
+            font-family: "Poppins Regular";
+        }
+        h2 {
+            font-family: "Poppins Medium";
+        }
+    }
+}
+
+header.header {
+    height: 40vh;
+    background-image: url('../image/bsu.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .bg-opacity {
+        background-color: rgba(0, 0, 0, 0.85);
+        height: 100%;
+        h1 {
+            margin-top: 50px;
+            font-family: "Poppins Medium";
+        }
+    }
+}
+
+section.product-section {
+    min-height: 100vh;
+    max-height: max-content;
+    .card {
+        transition: transform 0.3s ease;
+    }
+    .card:hover {
+        transform: scale(1.01);
+    }
+}
+
+footer {
+    h4 {
+        font-family: "Poppins Medium";
+    }
+    p {
+        font-family: "Poppins Regular";
+    }
+}
