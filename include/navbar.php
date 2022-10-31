@@ -30,7 +30,7 @@
                 <button class="btn btn-primary rounded-0 dropdown-toggle" type="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     <i class="bi bi-person-circle"></i>
-                    Justmyr
+                    <?php echo $student['first_name']; ?>
                 </button>
                 <ul class="dropdown-menu rounded-0">
                     <li><a class="dropdown-item" href="#">Profile</a></li>
@@ -55,3 +55,54 @@
         </div>
     </div>
 </nav>
+
+
+
+<?php
+/*
+<thead>
+    <tr>
+        <th colspan="3" class="text-center"><?php echo date('N, m-d-Y', strtotime($_POST['date'])); ?></th>
+</tr>
+<tr>
+    <th scope="col" class="text-center">Date</th>
+    <th scope="col" class="text-center">Available Slots</th>
+    <th scope="col" class="text-center">Action</th>
+</tr>
+</thead>
+<tbody>
+    <tr>
+        <td>
+            <p class="text-center m-0">Morning (8:00 AM - 11:30 AM)</p>
+        </td>
+        <td>
+            <p class="text-center m-0"> 49 / 100</p>
+        </td>
+        <td>
+            <button type="button" class="btn btn-dark btn-sm rounded-0 w-100">Book</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p class="text-center m-0">Afternoon (12:30 PM - 4:30 PM)</p>
+        </td>
+        <td>
+            <p class="text-center m-0"> 49 / 100</p>
+        </td>
+        <td>
+            <button type="button" class="btn btn-dark btn-sm rounded-0 w-100">Book</button>
+        </td>
+    </tr>
+</tbody>
+
+
+echo '<td>';
+    if ($j == 0 || $j == 6) {
+    echo '<button type="button" class="btn btn-primary btn-sm rounded-5 disabled date-btn">' . $day . '</button>';
+    } else {
+    echo '<button type="button" class="btn btn-primary btn-sm rounded-5 date-btn" id="' . $id . '">' . $day .
+        '</button>';
+    }
+    echo '</td>';
+*/
+?>

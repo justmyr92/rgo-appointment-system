@@ -6,7 +6,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <form action="index.php" method="POST">
+                <form action="<?php echo $current_page . ".php"; ?>" method="POST">
                     <div class="container">
                         <h3 class="mb-3">
                             Login

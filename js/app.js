@@ -39,3 +39,14 @@ window.addEventListener('scroll', function() {
         navDefault();
     }
 });
+
+
+
+function disabledCalendarDates() {
+    var dateBtn = document.querySelectorAll('.date-btn');
+    dateBtn.forEach(btn => {
+        if (!btn.classList.contains('disabled')) {
+            btn.classList.add('disabled');
+        }
+    });
+}

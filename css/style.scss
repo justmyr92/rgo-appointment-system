@@ -89,3 +89,39 @@ footer {
         font-family: "Poppins Regular";
     }
 }
+
+form.search {
+    width: 30%;
+    .search-btn {
+        display: flex;
+    }
+}
+
+section.appointment-section {
+    max-height: max-content;
+    .table-container {
+        height: 60vh;
+        background-color: #FFF;
+        table {
+            height: max-content;
+            width: fit-content;
+            font-family: "Poppins Regular";
+            tr {
+                td {
+                    padding: 5px;
+                    .date-btn {
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+                td.empty-cell {
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+    }
+    .appointmentTable {
+        background-color: #FFF;
+    }
+}
